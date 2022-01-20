@@ -37,7 +37,7 @@ function Header() {
                         <li><a href='#'>Genres</a></li>
                     </BurgerNav>
                     <Logo>
-                        <a href='#'><img src="/images/disney-hotstar-logo-dark.svg" alt="logo" /></a>
+                        <a href='#'><img src="https://raw.githubusercontent.com/swwayam/hotstar/4f107917be990c1b1c4b545021c5e6d9f153a843/public/images/disney-hotstar-logo-dark.svg" alt="logo" /></a>
                     </Logo>
             <Subscribe>
                 <button>Subscribe</button>
