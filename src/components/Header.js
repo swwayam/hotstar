@@ -33,7 +33,15 @@ function Header() {
             
                             <li><a href='#'>Watchlist</a></li>
                         </LoginWatchList>
-                        <li><img src='./pub lic/images/kids.svg' alt='Kids image'/></li>
+                        <Kids>
+                            <KidsImg>
+                                <img src='https://raw.githubusercontent.com/swwayam/hotstar/7fc5fa9da7de1123e87bb0e431f76ad2263e050f/public/images/kids.svg' />
+                            </KidsImg>
+                            <CheckBoxWrapper>
+                            <CheckBox id="checkbox" type="checkbox" />
+                            <CheckBoxLabel htmlFor="checkbox" />
+                            </CheckBoxWrapper>
+                        </Kids>
                         <li><a href='#'>Channels</a></li>
                         <li><a href='#'>Languages</a></li>
                         <li><a href='#'>Genres</a></li>
@@ -165,6 +173,63 @@ const LoginWatchList = styled.div`
 
 `
 
+const Kids = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 10px 30px;
+
+`
+const KidsImg = styled.div`
+    
+`
+
+const CheckBoxWrapper = styled.div`
+  position: relative;
+`;
+
+const CheckBoxLabel = styled.label`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 26px;
+  border-radius: 15px;
+  background: #bebebe;
+  cursor: pointer;
+  &::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 3px;
+    background: #ffffff;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+  }
+`;
+
+
+const CheckBox = styled.input`
+  opacity: 0;
+  z-index: 1;
+  border-radius: 15px;
+  width: 42px;
+  height: 26px;
+  &:checked + ${CheckBoxLabel} {
+    background: #2196F3;
+    &::after {
+      content: "";
+      display: block;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      margin-left: 21px;
+      transition: 0.2s;
+    }
+  }
+`;
+
 const Logo = styled.div`
     width: 4rem;
 `
@@ -195,7 +260,8 @@ const Search = styled.div`
     background:#0c111b;
     overflow-y: ${props => props.scroll ?  'auto':'hidden'};
     
-/* width */
+
+/* Scroll Bar // Width */
 ::-webkit-scrollbar {
   width: 5px;
 }
