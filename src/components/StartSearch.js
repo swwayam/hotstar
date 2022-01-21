@@ -19,6 +19,7 @@ function StartSearch(props) {
             {createImg()}
             {createImg()}
             {createImg()}
+            {createImg()}
         </ContentShow>
   );
 }

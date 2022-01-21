@@ -139,17 +139,20 @@ const BurgerNav = styled.div`
         font-size: 16px;
         line-height: 14px;
         padding:20px 30px;
-        
+       
         
         :hover{
             background-color: #0c111b;
         }
+
+
     }
 
     a{
         color: white;
         padding-right: 100%; 
     }
+
 `
 
 const LoginWatchList = styled.div`
@@ -176,7 +179,8 @@ const LoginWatchList = styled.div`
 const Kids = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 30px 30px 10px 30px;
+    margin: 30px 30px 20px 30px;
+    align-items: center;
 
 `
 const KidsImg = styled.div`
