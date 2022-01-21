@@ -1,12 +1,22 @@
 import React from 'react'
-import Header from '../components/Header'
+import styled from 'styled-components'
 
 function Home() {
     return (
-      
-            <Header />
+        <Banner>
+            
+
+        </Banner>    
         
     )
 }
 
 export default Home
+
+const Banner = styled.div`
+    color: white;
+    height: 300px;
+    padding-top: 80px;
+    width: 100%;
+   
+`
