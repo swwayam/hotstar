@@ -28,10 +28,12 @@ function Header() {
                         <LoginWatchList>
                             <li><a href='#'>Login
                                 <p>For a better experience </p>
+                                <span>></span>
                             </a></li>
             
                             <li><a href='#'>Watchlist</a></li>
                         </LoginWatchList>
+                        <li><img src='./pub lic/images/kids.svg' alt='Kids image'/></li>
                         <li><a href='#'>Channels</a></li>
                         <li><a href='#'>Languages</a></li>
                         <li><a href='#'>Genres</a></li>
@@ -153,8 +155,12 @@ const LoginWatchList = styled.div`
         padding-top: 10px;
     }
 
-    h1{
-        display: inline-block;
+    span{
+        position: fixed;
+        top: 105px;
+        right: 20px;
+        font-size: 20px;
+        font-weight: 400;
     }
 
 `
