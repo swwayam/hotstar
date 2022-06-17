@@ -24,20 +24,20 @@ function Header() {
             </CloseBtnWrapper>
             <LoginWatchList>
               <li>
-                <a href="#">
+                <a href="/">
                   Login
                   <p>For a better experience </p>
-                  <span>></span>
+                  <span>&#62;</span>
                 </a>
               </li>
 
               <li>
-                <a href="#">Watchlist</a>
+                <a href="/">Watchlist</a>
               </li>
             </LoginWatchList>
             <Kids>
               <KidsImg>
-                <img src="https://raw.githubusercontent.com/swwayam/hotstar/7fc5fa9da7de1123e87bb0e431f76ad2263e050f/public/images/kids.svg" />
+                <img src="https://raw.githubusercontent.com/swwayam/hotstar/7fc5fa9da7de1123e87bb0e431f76ad2263e050f/public/images/kids.svg" alt="kids"/>
               </KidsImg>
               <CheckBoxWrapper>
                 <CheckBox id="checkbox" type="checkbox" />
@@ -45,17 +45,17 @@ function Header() {
               </CheckBoxWrapper>
             </Kids>
             <li>
-              <a href="#">Channels</a>
+              <a href="/">Channels</a>
             </li>
             <li>
-              <a href="#">Languages</a>
+              <a href="/">Languages</a>
             </li>
             <li>
-              <a href="#">Genres</a>
+              <a href="/">Genres</a>
             </li>
           </BurgerNav>
           <Logo>
-            <a href="#">
+            <a href="/">
               <img
                 src="https://raw.githubusercontent.com/swwayam/hotstar/4f107917be990c1b1c4b545021c5e6d9f153a843/public/images/disney-hotstar-logo-dark.svg"
                 alt="logo"
