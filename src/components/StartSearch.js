@@ -7,7 +7,7 @@ function StartSearch(props) {
     const createImg = () => {
         const img = [];
         for (let i = 1; i <= props.number; i++){
-            img.push(<a href='#' key={i}><img src={'https://raw.githubusercontent.com/swwayam/hotstar/main/public/images/'+i+'.webp'} alt='hi' /></a>)
+            img.push(<a href='/' key={i}><img src={'https://raw.githubusercontent.com/swwayam/hotstar/main/public/images/'+i+'.webp'} alt='hi' /></a>)
         }
         return img;
     }

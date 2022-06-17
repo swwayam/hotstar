@@ -1,0 +1,114 @@
+.container{
+    position: relative;
+    z-index: -100;
+   
+}
+
+
+
+.homeBanner{
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+}
+
+.homeBanner:hover .arrows{
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+.arrows{
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    left: 50;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.arrow{
+ padding: 10px;
+ margin: 0 5px;
+}
+
+
+.arrow-btn{
+    background:none;
+    border: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-section{
+    position: relative;
+    z-index: -100;
+    top:50vh;
+}
+
+.homeBanner-section{
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: 0;
+  bottom: 0;
+}
+
+.section-title{
+    margin: 20px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.arrow-section{
+    padding: 10px;
+ margin: 0 5px;
+}
+
+.homeBanner-section:hover .arrows-section{
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+.arrows-section{
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    left: 50;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.arrow-btn-section{
+    background:none;
+    border: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@media screen and (max-width: 480px){
+    .arrows{
+        display: none;
+    }
+}
+
