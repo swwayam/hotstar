@@ -42,7 +42,7 @@ export default class Section extends Component {
       infinite: true,
       centerPadding: "60px",
       slidesToShow: 8,
-      slidesToScroll: 5,
+      slidesToScroll: 8,
       nextArrow: <NoDefaultArrows />,
       prevArrow: <NoDefaultArrows />,
       initialSlide: 0,
@@ -80,6 +80,69 @@ export default class Section extends Component {
         <h2 className="section-title">Latest and trending</h2>
           {this.NextAndPreviousArrows()}
           <Slider ref={(c) => (this.slider = c)} {...settings}>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
+            <div>
+              <BannerSection
+                url={
+                  "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/250/1280250-v-d2703f3616e1"
+                }
+              />
+            </div>
             <div>
               <BannerSection
                 url={
